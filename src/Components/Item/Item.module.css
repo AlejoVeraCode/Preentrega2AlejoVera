@@ -1,0 +1,93 @@
+.CardItem {
+  display: grid;
+  grid-gap: 20px; /* Espacio entre las cartas de productos */
+  margin: 15px;
+  padding: 2px 16px;
+  border: 3px solid #cc6b15;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: black;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+}
+.CardItem:hover {
+  transition-duration: 0.6s;
+  box-shadow: 0px 10px 20px 0px black;
+}
+
+/* Encabezado */
+.ProductHeader {
+  display: grid;
+  grid-gap: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Foto */
+.ProductImage {
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  border: 0.25rem solid #c59d5f;
+  justify-content: center;
+}
+
+/* Sección de información */
+.ProductInfo {
+  padding: 0 20px;
+  font-size: 11px;
+  color: #000000;
+  z-index: 999;
+}
+
+.ProductInfoTitle {
+  padding: 20px 20px 5px 20px;
+  display: block;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.productInfoDescription {
+  font-size: 0.8rem;
+}
+
+/* Pie de página */
+.ProductFooter {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+.Detail {
+  padding: 1.3em 3em;
+  margin: 1em;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  position: relative;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.Detail:hover {
+  background-color: #cc6b15;
+  box-shadow: 0px 15px 20px rgba(224, 119, 22, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.Detail:active {
+  transform: translateY(-1px);
+}

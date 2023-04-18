@@ -1,0 +1,68 @@
+.Contenedor {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+  margin-top: 60px;
+}
+
+.CardItem {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  max-width: 60%;
+  grid-gap: 20px;
+  position: absolute;
+  left: 15%;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  margin: 60px;
+  border: 3px solid #cc6b15;
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+  box-shadow: black;
+}
+.CardItem:hover {
+  transition-duration: 0.6s;
+  box-shadow: 0px 10px 20px 0px black;
+}
+
+/* Encabezado */
+.ProductHeader {
+  display: grid;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Foto */
+.ProductImage {
+  width: 400px;
+  height: 280px;
+  margin-top: 0px;
+  object-fit: cover;
+  border: 0.25rem solid #c59d5f;
+  justify-content: center;
+}
+
+/* Sección de información */
+
+.ProductInfo {
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Pie de página */
+.ProductFooter {
+  font-size: 0.8rem;
+  color: #999;
+  justify-content: center;
+  margin-bottom: 20px;
+}
